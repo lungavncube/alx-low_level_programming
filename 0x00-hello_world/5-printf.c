@@ -8,10 +8,10 @@
  *
  * Return: Always 0 (Success)
  */
-int main()
+int main(void)
 	/* main fuction is executed */
 {
-printf ("with proper grammar, but the outcome is a piece of art,");
+printf("with proper grammar, but the outcome is a piece of art,");
 return 0;
 }
 /* end function main */
