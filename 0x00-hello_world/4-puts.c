@@ -4,10 +4,12 @@
  */
 #include <stdio.h>
 
+/* unction main begins program execution */
 int main(void)
-/* function main begins program execution */
 {
 puts("\"Programming is like building a multilingual puzzle");
 return (0);
-} /* end function main */
+/* This program prints out the above using puts */
+}
+/* end function main */
 
