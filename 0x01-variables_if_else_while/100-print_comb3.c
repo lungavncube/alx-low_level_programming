@@ -1,8 +1,11 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
+
 
 /**
  * main - entry point
- * 
+ *
  * Description: program prints all possible
  * different combinations of two digits
  *
@@ -16,7 +19,7 @@ int main(void)
 
 	i = 48;
 	j = 48;
-	while ((i < 5) && (j == 57))
+	while ((i < 58) && (j < 58))
 	{
 		putchar(i);
 		putchar(j);
@@ -30,7 +33,7 @@ int main(void)
 		{
 			putchar(44);
 			putchar(32);
-			if(j < 57)
+			if (j < 57)
 			{
 				j++;
 			}
