@@ -11,25 +11,36 @@
 
 int main(void)
 {
+	int i;
+	int j;
 
-	int tens;
-	int ones;
-
-	for (tens = 0; tens <= 9; tens++)
+	i = 48;
+	j = 48;
+	while ((i < 5) && (j == 57))
 	{
-		for (ones = 0; ones <= 9; ones++)
+		putchar(i);
+		putchar(j);
+		if ((i == 57) && (j == 57))
 		{
-			putchar(tens+ '0');
-			putchar(ones + '0');
-
-			if (!(tens == 9 && ones == 9))
+			putchar('\n');
+			i++;
+			j++;
+		}
+		else
+		{
+			putchar(44);
+			putchar(32);
+			if(j < 57)
 			{
-				putchar(',');
-				putchar(' ');
+				j++;
+			}
+			else
+			{
+				j = 48;
+				i++;
 			}
 		}
 	}
-	putchar('\n');
 
 	return (0);
 
