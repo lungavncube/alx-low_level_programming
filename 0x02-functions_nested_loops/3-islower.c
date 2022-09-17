@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * _islower - maint entry
+ * _islower - main entry
+ *
+ *@c: returns intiger
  *
  * Description: function checks for lowercase character
  *
