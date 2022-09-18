@@ -7,7 +7,7 @@
  *
  * Description: function prints the sign of a number
  *
- * return: 1 or 0 or -1
+ * Return: 1 or 0 or -1
  */
 
 int print_sign(int n)
