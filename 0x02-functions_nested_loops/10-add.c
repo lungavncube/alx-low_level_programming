@@ -1,5 +1,5 @@
 #include "main.h"
-                                                         
+
 /**
  * add - entry point
  * @i: first intiger
