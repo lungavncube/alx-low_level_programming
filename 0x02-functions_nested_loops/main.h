@@ -27,6 +27,8 @@ void print_to_98(int n);
 
 #include <stdio.h>
 
+#include <time.h>
+
 #include <stdlib.h>
 
 #endif /* MAIN_H */
